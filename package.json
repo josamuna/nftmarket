@@ -1,16 +1,33 @@
 {
-  "name": "nftmarket",
-  "version": "0.5.0",
+  "name": "nftmarket-project",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "start": "next start",
     "export": "next export"
   },
   "dependencies": {
+    "@next/font": "13.1.5",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@openzeppelin/contracts": "^4.8.1",
+    "axios": "^1.2.4",
+    "chai": "^4.3.7",
     "cypress": "^10.0.3",
-    "next": "^12.1.5",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.6",
+    "ipfs-http-client": "^60.0.0",
+    "next": "13.1.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "web3modal": "^1.9.11"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.27",
+    "autoprefixer": "^10.4.13",
+    "hardhat-gas-reporter": "^1.0.9",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
   }
 }

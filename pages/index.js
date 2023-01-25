@@ -1,23 +1,7 @@
-import Head from "next/head";
-import Header from "@components/Header";
-import Footer from "@components/Footer";
+import React from "react";
 
-export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+const index = () => {
+  return <div></div>;
+};
 
-      <main>
-        <Header title="Happy to test this Netlify app" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
-
-      <Footer />
-    </div>
-  );
-}
+export default index;
