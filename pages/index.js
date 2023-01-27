@@ -1,7 +1,7 @@
 import { ethers } from "ethers"; // Handle Blockchain interactions
 import { useState, useEffect } from "react";
 import axios from "axios";
-import Web3Modal from "web3Modal"; // Handle connection to wallet like Metamask
+import Web3Modal from "web3modal"; // Handle connection to wallet like Metamask
 
 import { nftaddress, nftmarketaddress } from "../config";
 // ABI
