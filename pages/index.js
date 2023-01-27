@@ -5,8 +5,10 @@ import Web3Modal from "web3modal"; // Handle connection to wallet like Metamask
 
 import { nftaddress, nftmarketaddress } from "../config";
 // ABI
-import NFT from "../artifacts/contracts/NFT.sol/NFT.json";
-import NFTMarket from "../artifacts/contracts/NFTMarket.sol/NFTMarket.json";
+// import NFT from "../artifacts/contracts/NFT.sol/NFT.json";
+// import NFTMarket from "../artifacts/contracts/NFTMarket.sol/NFTMarket.json";
+import NFT from "../constants/NFT.json";
+import NFTMarket from "../constants/NFTMarket.json";
 
 export default function Home() {
   // Hook for NFT to show (Default empty array)
